@@ -1,9 +1,4 @@
-<template>
-  <button @click="toggleSelection" @keydown.enter="toggleSelection"
-          :class="{ selected: isSelected }">
-    {{ this.word }}
-  </button>
-</template>
+
 
 <script>
 export default {
